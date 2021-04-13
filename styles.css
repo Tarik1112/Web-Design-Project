@@ -69,3 +69,42 @@
     background-color: white;
     color: #003249;
 }
+
+.sec1 .main{
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.sec1 .main p{
+    font-weight: 300;
+    font-size: 30px;
+    width: 30%;
+}
+
+.sec1 .btns--div{
+    margin-top: 3%;
+}
+
+.btn1{
+    color: #003249;
+    background-color: #9AD1D4;
+    width: 280px;
+    height: 90px;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    border-radius: 18px;
+    transition: background-color 0.5s linear;
+}
+
+.btn1:hover{
+    background-color: #eaf1f1;
+}
