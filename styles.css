@@ -76,8 +76,9 @@
     margin-right: 5%;
     margin-top: 10%;
     display: flex;
-    align-content: space-between;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .sec1 .main p{
@@ -88,6 +89,7 @@
 
 .sec1 .btns--div{
     margin-top: 3%;
+    margin-left: 5%;
 }
 
 .btn1{
