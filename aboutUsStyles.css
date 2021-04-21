@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top right,#0A1365,#9f2121);
+}
+
+body{
+    background-image: linear-gradient(to top right,#0A1365,#9f2121);
+    height: 100vh;
+}
