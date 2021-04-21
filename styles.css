@@ -11,7 +11,11 @@
     
 }
 .sec1{
-    background-image: linear-gradient(to top right,#0A1365,#9f2121);
+    background-image: url("/Images/backgroundspace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     position: relative;
     z-index: 2;
 }
@@ -59,7 +63,7 @@
     text-decoration: none;
     margin: 0 15px;
     padding: 0 15px;
-    border: solid black 2px;
+    border: solid rgb(255, 255, 255) 2px;
     border-radius: 35px;
     color: #fff;
     text-align: center;
