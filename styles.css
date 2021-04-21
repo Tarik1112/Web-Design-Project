@@ -164,7 +164,7 @@
 
 .sec3 .box1 .planet{
     border-radius: 50%;
-    border: solid rgb(255, 255, 255) 1px;
+
     height: 12em;
     width: 12em;
     margin:1em 3em
@@ -180,8 +180,16 @@
 }
 .sec3 .box2 .planet{
     border-radius: 50%;
-    border: solid rgb(255, 255, 255) 1px;
     height: 12em;
     width: 12em;
+    margin:1em 3em
+}
+.planetSaturn{
+    height: 14em;
+    width: 28em;
+}
+.planetSun{
+    height: 13em;
+    width: 13em;
     margin:1em 3em
 }
