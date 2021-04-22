@@ -164,7 +164,7 @@
 
 .sec3 .box1 .planet{
     border-radius: 50%;
-
+    transition: 0.7s;
     height: 12em;
     width: 12em;
     margin:1em 3em
@@ -182,7 +182,8 @@
     border-radius: 50%;
     height: 12em;
     width: 12em;
-    margin:1em 3em
+    margin:1em 3em;
+    transition: 0.7s;
 }
 .planetSaturn{
     height: 14em;
@@ -191,5 +192,27 @@
 .planetSun{
     height: 13em;
     width: 13em;
-    margin:1em 3em
+    margin:1em 3em;
+    transition: 0.7s;
+}
+
+.planetSun:hover{
+    height: 15em;
+    width: 15em;
+}
+
+
+.sec3 .box1 .planet:hover{
+    height: 14em;
+    width: 14em;
+}
+
+.sec3 .box2 .planet:hover{
+    height: 14em;
+    width: 14em;
+}
+
+.planetSaturn:hover{
+    height: 14em;
+    width: 28em;
 }
