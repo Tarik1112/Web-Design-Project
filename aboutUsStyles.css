@@ -20,3 +20,38 @@
     font-size: 3rem;
     color: white;
 }
+.desc1{
+    margin-left: 13%;
+    margin-right: 25%;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.desc2{
+    margin-left: 25%;
+    margin-right: 13%;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+img.aboutUsTM{
+    margin-right: 5%;
+}
+
+img.aboutUsTV{
+    margin-left: 5%;
+}
+
+.desc1 p{
+    text-align: justify;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.desc2 p{
+    text-align: justify;
+    color: #fff;
+    font-size: 1.2rem;
+}
