@@ -6,213 +6,1115 @@
     scroll-behavior: smooth;
 }
 
-.sec1, .sec2, .sec3, .sec4, .sec5{
-    min-height: 100vh;
+@media (min-width: 1281px){
+    .sec1, .sec2, .sec3, .sec4, .sec5{
+        min-height: 100vh;
+        
+    }
+    .sec1{
+        background-image: url("/Images/backgroundspace.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        z-index: 2;
+    }
+    .sec2{
+        background-color: rgb(0, 0, 0);
+    }
+    .sec3{
+        background-color: #000000;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .sec4{  
+        background-color: #CCDBDC;
+    }
+    .sec5{
+        background-color: rgba(0, 126, 167, 0.6);
+    }
+    .sec6{
+        background-color: #003249;
+        min-height: 40vh;
+    }
+    
+    .head--cs{
+        color: white;
+        width: 100%;
+        display: block;
+        background: #08080800;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .head--cs .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 150%;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 5%;
+    }
+    .head--cs .menu a{
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 0 15px;
+        border: solid rgb(255, 255, 255) 2px;
+        border-radius: 35px;
+        color: #fff;
+        text-align: center;
+        display: inline;
+        transition: background-color 0.7s linear;
+    }
+    
+    .head--cs .menu a:hover{
+        background-color: white;
+        color: #000000;
+    }
+    
+    
+    .logo img{
+        width: 70%;
+        padding-top: 3%;
+    }
+    
+    .logo{
+        margin-left: 7%;
+    }
+    
+    
+    .sec1--main {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -2;
+    }
+    
+    .sec1 p{
+        font-weight: 300;
+        font-size: 200%;
+        width: 30%;
+    }
+    
+    .sec1 .btns--div{
+        
+        margin-left: 5%;
+    }
+    
+    .btn1{
+        color: #000000;
+        background-color: #ffffff;
+        width: 18rem;
+        height: 5rem;
+        font-size: 30px;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        outline: none;
+        border:none;
+        border-radius: 18px;
+        transition: background-color 0.5s linear;
+    }
+    
+    .btn1:hover{
+        background-color: #000000;
+        color: white;
+    }
+    
+    .sec2{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .sec2 img {
+        width: 40%;
+        height: auto;
+        margin-left: 13%;
+        margin-right: 5%;
+    }
+    
+    .sec2 p{
+        text-align: left;
+        margin-right: 13%;
+        font-size: 1.4rem;
+        margin-left: 5%;
+        color: #fff;
+    }
+    
+    .sec3 .box1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        /* margin-top: 8em; */
+    }
+    
+    .sec3 .box1 .planet{
+        border-radius: 50%;
+        transition: 0.7s;
+        height: 12em;
+        width: 12em;
+        margin:1em 3em
+    }
+    
+    .sec3 .box2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        margin-top: 8em;
+    }
+    .sec3 .box2 .planet{
+        border-radius: 50%;
+        height: 9.5em;
+        width: 9.5em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    .planetSaturn{
+        height: 12.5em;
+        width: 25em;
+        transition: 0.7s;
+    }
+    .planetSun{
+        height: 12em;
+        width: 12em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    
+    .planetSun:hover{
+        height: 16em;
+        width: 16em;
+    }
+    
+    
+    .sec3 .box1 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .sec3 .box2 .planet:hover{
+        height: 12em;
+        width: 12em;
+    }
+    
+    .planetSaturn:hover{
+        height: 14em;
+        width: 28em;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .sec1, .sec2, .sec3, .sec4, .sec5{
+        min-height: 100vh;
+        min-width: auto;
+    }
+    .sec1{
+        background-image: url("/Images/backgroundspace.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        z-index: 2;
+    }
+    .sec2{
+        background-color: rgb(0, 0, 0);
+    }
+    .sec3{
+        background-color: #000000;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .sec4{  
+        background-color: #CCDBDC;
+    }
+    .sec5{
+        background-color: rgba(0, 126, 167, 0.6);
+    }
+    .sec6{
+        background-color: #003249;
+        min-height: 40vh;
+    }
+    
+    .head--cs{
+        color: white;
+        width: 100%;
+        display: block;
+        background: #08080800;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .head--cs .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-size: 1.1rem;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 5%;
+    }
+    .head--cs .menu a{
+        text-decoration: none;
+        margin: 0 1rem;
+        padding: 0 1rem;
+        border: solid rgb(255, 255, 255) 2px;
+        border-radius: 35px;
+        color: #fff;
+        text-align: center;
+        display: inline;
+        transition: background-color 0.7s linear;
+    }
+    
+    .head--cs .menu a:hover{
+        background-color: white;
+        color: #000000;
+    }
+    
+    
+    .logo img{
+        width: 70%;
+        padding-top: 3%;
+    }
+    
+    .logo{
+        margin-left: 7%;
+    }
+    
+    
+    .sec1--main {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -2;
+    }
+    
+    .sec1 p{
+        font-weight: 300;
+        font-size: 150%;
+        width: 30%;
+    }
+    
+    .sec1 .btns--div{
+        
+        margin-left: 5%;
+    }
+    
+    .btn1{
+        color: #000000;
+        background-color: #ffffff;
+        width: 14rem;
+        height: 3rem;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        outline: none;
+        border:none;
+        border-radius: 18px;
+        transition: background-color 0.5s linear;
+    }
+    
+    .btn1:hover{
+        background-color: #000000;
+        color: white;
+    }
+    
+    .sec2{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .sec2 img {
+        width: 40%;
+        height: auto;
+        margin-left: 13%;
+        margin-right: 4%;
+    }
+    
+    .sec2 p{
+        text-align: left;
+        margin-right: 13%;
+        font-size: 1rem;
+        margin-left: 5%;
+        color: #fff;
+    }
+    
+    .sec3 .box1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        /* margin-top: 8em; */
+    }
+    
+    .sec3 .box1 .planet{
+        border-radius: 50%;
+        transition: 0.7s;
+        height: 9em;
+        width: 9em;
+        margin:1em 3em
+    }
+    
+    .sec3 .box2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        margin-top: 8em;
+    }
+    .sec3 .box2 .planet{
+        border-radius: 50%;
+        height: 7em;
+        width: 7em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    .planetSaturn{
+        height: 9em;
+        width: 17em;
+        transition: 0.7s;
+    }
+    .planetSun{
+        height: 9em;
+        width: 9em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    
+    .planetSun:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    
+    .sec3 .box1 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .sec3 .box2 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .planetSaturn:hover{
+        height: 16em;
+        width: 32em;
+    }
     
 }
-.sec1{
-    background-image: url("/Images/backgroundspace.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .sec1, .sec2, .sec3, .sec4, .sec5{
+        min-height: 100vh;
+        min-width: auto;
+    }
+    .sec1{
+        background-image: url("/Images/backgroundspace.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        z-index: 2;
+    }
+    .sec2{
+        background-color: rgb(0, 0, 0);
+    }
+    .sec3{
+        background-color: #000000;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .sec4{  
+        background-color: #CCDBDC;
+    }
+    .sec5{
+        background-color: rgba(0, 126, 167, 0.6);
+    }
+    .sec6{
+        background-color: #003249;
+        min-height: 40vh;
+    }
     
-    position: relative;
-    z-index: 2;
-}
-.sec2{
-    background-color: rgb(0, 0, 0);
-}
-.sec3{
-    background-color: #000000;
-    max-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-.sec4{  
-    background-color: #CCDBDC;
-}
-.sec5{
-    background-color: rgba(0, 126, 167, 0.6);
-}
-.sec6{
-    background-color: #003249;
-    min-height: 40vh;
-}
-
-.head--cs{
-    color: white;
-    width: 100%;
-    display: block;
-    background: #08080800;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.head--cs .menu{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 150%;
-    text-decoration: none;
-    align-content: center;
-    margin-right: 5%;
-}
-.head--cs .menu a{
-    text-decoration: none;
-    margin: 0 15px;
-    padding: 0 15px;
-    border: solid rgb(255, 255, 255) 2px;
-    border-radius: 35px;
-    color: #fff;
-    text-align: center;
-    display: inline;
-    transition: background-color 0.7s linear;
-}
-
-.head--cs .menu a:hover{
-    background-color: white;
-    color: #000000;
-}
-
-
-.logo img{
-    width: 70%;
-    padding-top: 3%;
-}
-
-.logo{
-    margin-left: 7%;
-}
-
-
-.sec1--main {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: -2;
-}
-
-.sec1 p{
-    font-weight: 300;
-    font-size: 200%;
-    width: 30%;
-}
-
-.sec1 .btns--div{
+    .head--cs{
+        color: white;
+        width: 100%;
+        display: block;
+        background: #08080800;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .head--cs .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        font-size: 1rem;
+        text-decoration: none;
+        align-content: center;
+        margin-right: 5%;
+        white-space: nowrap;
+        margin-right: 3%;
+    }
+    .head--cs .menu a{
+        text-decoration: none;
+        margin: 0 1rem;
+        padding: 0rem 1rem;
+        border: solid rgb(255, 255, 255) 2px;
+        border-radius: 35px;
+        color: #fff;
+        text-align: center;
+        display: inline;
+        transition: background-color 0.7s linear;
+    }
     
-    margin-left: 5%;
+    .head--cs .menu a:hover{
+        background-color: white;
+        color: #000000;
+    }
+    
+    
+    .logo img{
+        width: 90%;
+        padding-top: 3%;
+    }
+    
+    .logo{
+        margin-left: 7%;
+    }
+    
+    
+    .sec1--main {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -2;
+    }
+    
+    .sec1 p{
+        font-weight: 300;
+        font-size: 200%;
+        width: 30%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    
+    
+    .btn1{
+        color: #000000;
+        background-color: #ffffff;
+        width: 14rem;
+        height: 3rem;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        outline: none;
+        border:none;
+        border-radius: 18px;
+        transition: background-color 0.5s linear;
+    }
+    
+    .btn1:hover{
+        background-color: #000000;
+        color: white;
+    }
+    
+    .sec2{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec2 img {
+        width: 60%;
+        height: auto;
+        
+    }
+    
+    .sec2 p{
+        text-align: center;
+        margin: 5% 10%;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    
+    .sec3 .box1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 8em; */
+    }
+    
+    .sec3 .box1 .planet{
+        border-radius: 50%;
+        transition: 0.7s;
+        height: 9em;
+        width: 9em;
+        margin:1em 3em
+    }
+    
+    .sec3 .box2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec3 .box2 .planet{
+        border-radius: 50%;
+        height: 8.5em;
+        width: 8.5em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    .planetSaturn{
+        height: 8.5em;
+        width: 17em;
+        transition: 0.7s;
+    }
+    .planetSun{
+        height: 9em;
+        width: 9em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    
+    .planetSun:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    
+    .sec3 .box1 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .sec3 .box2 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .planetSaturn:hover{
+        height: 16em;
+        width: 32em;
+    }
+    
 }
 
-.btn1{
-    color: #000000;
-    background-color: #ffffff;
-    width: 18rem;
-    height: 5rem;
-    font-size: 30px;
-    padding: 10px;
-    margin: 10px;
-    cursor: pointer;
-    outline: none;
-    border:none;
-    border-radius: 18px;
-    transition: background-color 0.5s linear;
-}
 
-.btn1:hover{
-    background-color: #000000;
-    color: white;
-}
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  
+  
+    .sec1, .sec2, .sec3, .sec4, .sec5{
+        min-height: 100vh;
+        min-width: auto;
+    }
+    .sec1{
+        background-image: url("/Images/backgroundspace.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        z-index: 2;
+    }
+    .sec2{
+        background-color: rgb(0, 0, 0);
+    }
+    .sec3{
+        background-color: #000000;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .sec4{  
+        background-color: #CCDBDC;
+    }
+    .sec5{
+        background-color: rgba(0, 126, 167, 0.6);
+    }
+    .sec6{
+        background-color: #003249;
+        min-height: 40vh;
+    }
+    
+    .head--cs{
+        color: white;
+        width: 100%;
+        display: block;
+        background: #08080800;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .head--cs .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: center;
+        font-size: 1rem;
+        text-decoration: none;
+        align-content: center;
+        white-space: nowrap;
+        margin-top: 10px;
+    }
+    .head--cs .menu a{
+        text-decoration: none;
+        margin: 0 1rem;
+        padding: 0rem 1rem;
+        border: solid rgb(255, 255, 255) 2px;
+        border-radius: 35px;
+        color: #fff;
+        text-align: center;
+        display: inline;
+        transition: background-color 0.7s linear;
+    }
+    
+    .head--cs .menu a:hover{
+        background-color: white;
+        color: #000000;
+    }
+    
+    
+    .logo img{
+        width: 100%;
+        padding-top: 3%;
+    }
 
-.sec2{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-.sec2 img {
-    width: 40%;
-    height: auto;
-    margin-left: 13%;
-    margin-right: 5%;
-}
+    .logo{
+        justify-content: center;
+        align-content: center;
+    }
+    
+   
+    
+    
+    .sec1--main {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -2;
+    }
+    
+    .sec1 p{
+        font-weight: 300;
+        font-size: 150%;
+        width: 30%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    
+    
+    
+    .btn1{
+        color: #000000;
+        background-color: #ffffff;
+        width: 12rem;
+        height: 2.5rem;
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        outline: none;
+        border:none;
+        border-radius: 18px;
+        transition: background-color 0.5s linear;
+    }
+    
+    .btn1:hover{
+        background-color: #000000;
+        color: white;
+    }
+    
+    .sec2{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec2 img {
+        width: 60%;
+        height: auto;
+        
+    }
+    
+    .sec2 p{
+        text-align: center;
+        margin: 5% 10%;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    
+    .sec3 .box1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 8em; */
+    }
+    
+    .sec3 .box1 .planet{
+        border-radius: 50%;
+        transition: 0.7s;
+        height: 9em;
+        width: 9em;
+        margin:1em 3em
+    }
+    
+    .sec3 .box2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec3 .box2 .planet{
+        border-radius: 50%;
+        height: 8.5em;
+        width: 8.5em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    .planetSaturn{
+        height: 8.5em;
+        width: 17em;
+        transition: 0.7s;
+    }
+    .planetSun{
+        height: 9em;
+        width: 9em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    
+    .planetSun:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    
+    .sec3 .box1 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .sec3 .box2 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .planetSaturn:hover{
+        height: 16em;
+        width: 32em;
+    }
+  }
+  @media   (max-width: 480px) {
+    
+    .sec1, .sec2, .sec3, .sec4, .sec5{
+        min-height: 100vh;
+        min-width: auto;
+    }
+    .sec1{
+        background-image: url("/Images/backgroundspace.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        z-index: 2;
+    }
+    .sec2{
+        background-color: rgb(0, 0, 0);
+    }
+    .sec3{
+        background-color: #000000;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .sec4{  
+        background-color: #CCDBDC;
+    }
+    .sec5{
+        background-color: rgba(0, 126, 167, 0.6);
+    }
+    .sec6{
+        background-color: #003249;
+        min-height: 40vh;
+    }
+    
+    .head--cs{
+        color: white;
+        width: 100%;
+        display: block;
+        background: #08080800;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .head--cs .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: 1rem;
+        text-decoration: none;
+        align-content: center;
+        white-space: nowrap;
+  
+    }
+    .head--cs .menu a{
+        text-decoration: none;
+        margin: 0 0.5rem;
+        padding: 0rem 0.5rem;
+        border: solid rgb(255, 255, 255) 2px;
+        border-radius: 35px;
+        color: #fff;
+        text-align: center;
+        display: inline;
+        transition: background-color 0.7s linear;
+    }
+    
+    .head--cs .menu a:hover{
+        background-color: white;
+        color: #000000;
+    }
+    
+    
+    .logo img{
+        width: 80%;
+        padding-top: 3%;
+        padding-bottom: 2%;
+    }
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .sec1--main {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: -2;
+    }
+    
+    .sec1 p{
+        font-weight: 300;
+        font-size: 130%;
+        width: 30%;
+        text-align: center;
+    }
+    
+    .btns--div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin-top: 15px;
+    }
 
-.sec2 p{
-    text-align: left;
-    margin-right: 13%;
-    font-size: 1.4rem;
-    margin-left: 5%;
-    color: #fff;
-}
+    .btn1{
+        color: #000000;
+        background-color: #ffffff;
+        width: 14rem;
+        height: 3rem;
+        font-size: 20px;
+        padding: 10px;
+        margin: 10px;
+        cursor: pointer;
+        outline: none;
+        border:none;
+        border-radius: 18px;
+        transition: background-color 0.5s linear;
+    }
+    
+    .btn1:hover{
+        background-color: #000000;
+        color: white;
+    }
+    
+    .sec2{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec2 img {
+        width: 65%;
+        height: auto;
+        
+    }
+    
+    .sec2 p{
+        text-align: center;
+        margin: 7% 10%;
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    
+    .sec3 .box1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 8em; */
+    }
+    
+    .sec3 .box1 .planet{
+        border-radius: 50%;
+        transition: 0.7s;
+        height: 9em;
+        width: 9em;
+        margin:1em 3em
+    }
+    
+    .sec3 .box2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec3 .box2 .planet{
+        border-radius: 50%;
+        height: 8.5em;
+        width: 8.5em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    .planetSaturn{
+        height: 8.5em;
+        width: 17em;
+        transition: 0.7s;
+    }
+    .planetSun{
+        height: 9em;
+        width: 9em;
+        margin:1em 3em;
+        transition: 0.7s;
+    }
+    
+    .planetSun:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    
+    .sec3 .box1 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .sec3 .box2 .planet:hover{
+        height: 14em;
+        width: 14em;
+    }
+    
+    .planetSaturn:hover{
+        height: 16em;
+        width: 32em;
+    }
+    
+  }
+    
 
-.sec3 .box1{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: space-between;
-    /* margin-top: 8em; */
-}
-
-.sec3 .box1 .planet{
-    border-radius: 50%;
-    transition: 0.7s;
-    height: 12em;
-    width: 12em;
-    margin:1em 3em
-}
-
-.sec3 .box2{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: space-between;
-    margin-top: 8em;
-}
-.sec3 .box2 .planet{
-    border-radius: 50%;
-    height: 12em;
-    width: 12em;
-    margin:1em 3em;
-    transition: 0.7s;
-}
-.planetSaturn{
-    height: 14em;
-    width: 28em;
-}
-.planetSun{
-    height: 13em;
-    width: 13em;
-    margin:1em 3em;
-    transition: 0.7s;
-}
-
-.planetSun:hover{
-    height: 15em;
-    width: 15em;
-}
-
-
-.sec3 .box1 .planet:hover{
-    height: 14em;
-    width: 14em;
-}
-
-.sec3 .box2 .planet:hover{
-    height: 14em;
-    width: 14em;
-}
-
-.planetSaturn:hover{
-    height: 14em;
-    width: 28em;
-}
