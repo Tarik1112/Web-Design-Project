@@ -28,20 +28,9 @@
     align-items:center;
     justify-content: center;
 }
-.desc2{
-    margin-left: 25%;
-    margin-right: 13%;
-    height: 400px;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
-img.aboutUsTM{
-    margin-right: 5%;
-}
 
-img.aboutUsTV{
-    margin-left: 5%;
+img.aboutUsPhoto{
+    margin-right: 5%;
 }
 
 .desc1 p{
