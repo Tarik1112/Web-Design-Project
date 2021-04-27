@@ -32,7 +32,7 @@
         align-content: center;
     }
     .sec4{  
-        background-color: #CCDBDC;
+        background-color: #863838;
     }
     .sec5{
         background-color: rgba(0, 126, 167, 0.6);
@@ -227,9 +227,13 @@
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-    .sec1, .sec2, .sec3, .sec4, .sec5{
+    .sec1, .sec2, .sec3{
         min-height: 100vh;
         min-width: auto;
+    }
+    .sec5{
+        height: 40vh;
+        background-color: rgb(0, 0, 0);
     }
     .sec1{
         background-image: url("/Images/backgroundspace.jpg");
@@ -251,17 +255,7 @@
         justify-content: center;
         align-content: center;
     }
-    .sec4{  
-        background-color: #CCDBDC;
-    }
-    .sec5{
-        background-color: rgba(0, 126, 167, 0.6);
-    }
-    .sec6{
-        background-color: #003249;
-        min-height: 40vh;
-    }
-    
+  
     .head--cs{
         color: white;
         width: 100%;
@@ -437,6 +431,47 @@
     .planetSaturn:hover{
         height: 16em;
         width: 32em;
+    }
+    .sec4{  
+        background-color: #ffffff;
+        height: 100%;
+    }
+    .sec4 .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4 .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7%;
+    }
+    .sec4 .header h2, .sec4 .header h3{
+        padding: 1rem;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+    .sec4 .btn1{
+       width: 20em;
+       height: 4em;
+       background-color: rgb(255, 71, 126);
+       color: rgb(0, 0, 0);
+       font-size: 1.3rem;
+       border-radius: 5px;
+       transition: 0.7s ease;
+    }
+    .sec4 .btn1:hover{
+        background-color: black;
+        color: white;
+     }
+    .sec4 .btns--div{
+        margin-bottom: 2em;
+    }
+    .stackIcon{
+        visibility: hidden;
     }
     
 }
@@ -661,7 +696,47 @@
         height: 16em;
         width: 32em;
     }
-    
+    .sec4{  
+        background-color: #ffffff;
+        height: 100%;
+    }
+    .sec4 .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4 .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7%;
+    }
+    .sec4 .header h2, .sec4 .header h3{
+        padding: 1rem;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+    .sec4 .btn1{
+       width: 20em;
+       height: 4em;
+       background-color: rgb(255, 71, 126);
+       color: rgb(0, 0, 0);
+       font-size: 1.3rem;
+       border-radius: 5px;
+       transition: 0.7s ease;
+    }
+    .sec4 .btn1:hover{
+        background-color: black;
+        color: white;
+     }
+    .sec4 .btns--div{
+        margin-bottom: 2em;
+    }
+    .stackIcon{
+        visibility: hidden;
+    }
 }
 
 
@@ -890,6 +965,47 @@
         height: 16em;
         width: 32em;
     }
+    .sec4{  
+        background-color: #ffffff;
+        height: 100%;
+    }
+    .sec4 .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4 .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7%;
+    }
+    .sec4 .header h2, .sec4 .header h3{
+        padding: 1rem;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+    .sec4 .btn1{
+       width: 20em;
+       height: 4em;
+       background-color: rgb(255, 71, 126);
+       color: rgb(0, 0, 0);
+       font-size: 1.3rem;
+       border-radius: 5px;
+       transition: 0.7s ease;
+    }
+    .sec4 .btn1:hover{
+        background-color: black;
+        color: white;
+     }
+    .sec4 .btns--div{
+        margin-bottom: 2em;
+    }
+    .stackIcon{
+        visibility: hidden;
+    }
   }
   @media   (max-width: 480px) {
     
@@ -1113,6 +1229,47 @@
     .planetSaturn:hover{
         height: 16em;
         width: 32em;
+    }
+    .sec4{  
+        background-color: #ffffff;
+        height: 100%;
+    }
+    .sec4 .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec4 .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 7%;
+    }
+    .sec4 .header h2, .sec4 .header h3{
+        padding: 1rem;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+    }
+    .sec4 .btn1{
+       width: 20em;
+       height: 4em;
+       background-color: rgb(255, 71, 126);
+       color: rgb(0, 0, 0);
+       font-size: 1.3rem;
+       border-radius: 5px;
+       transition: 0.7s ease;
+    }
+    .sec4 .btn1:hover{
+        background-color: black;
+        color: white;
+     }
+    .sec4 .btns--div{
+        margin-bottom: 2em;
+    }
+    .stackIcon{
+        visibility: hidden;
     }
     
   }
