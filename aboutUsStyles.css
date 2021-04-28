@@ -6,10 +6,24 @@
     scroll-behavior: smooth;
 }
 
+
 .main--aboutUs{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("/Images/backgroundspace.jpg");
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        position: relative;
+        z-index: 2;
 }
+.logo{
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+}
+
 .main--aboutUs .header{
     display: flex;
     justify-content: center;
