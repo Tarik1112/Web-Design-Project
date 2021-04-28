@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    background-image: url("/Images/backgroundspace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.section1{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageDef{
+    margin-top: 3vh;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    margin: 2vh;
+    text-align: center;
+}
+
+p{
+    margin: 2vh 3vh 2vh 3vh;
+    text-align: center;
+}
+
+.box{
+    width: 20%;
+    height: 90%;
+    background-color: rgba(255,255,255,0.5);
+}
