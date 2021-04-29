@@ -243,6 +243,7 @@
        font-size: 1.3rem;
        border-radius: 5px;
        transition: 0.7s ease;
+       margin-bottom: 20vh;
     }
     .sec4 .btn1:hover{
         background-color: black;
@@ -255,6 +256,10 @@
     }
     .menu i{
         visibility: hidden;
+    }
+    .sec5{
+        height: 150vh;
+        background-color: black;
     }
 }
 
@@ -269,10 +274,7 @@
         min-height: 100vh;
         min-width: auto;
     }
-    .sec5{
-        height: 40vh;
-        background-color: rgb(0, 0, 0);
-    }
+
     .sec1{
         background-image: url("/Images/backgroundspace.jpg");
         background-position: center;
@@ -471,7 +473,7 @@
         width: 32em;
     }
     .sec4{  
-        background-color: #ffffff;
+        background-color: #000000;
         height: 100%;
     }
     .sec4 .container{
@@ -490,7 +492,7 @@
     .sec4 .header h2, .sec4 .header h3{
         padding: 1rem;
         font-size: 2rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     .sec4 .btn1{
        width: 20em;
@@ -511,7 +513,10 @@
     .menu i{
         visibility: hidden;
     }
-    
+    .sec5{
+        height: 150vh;
+        background-color: black;
+    }
 }
 
 /* 
@@ -547,13 +552,6 @@
     }
     .sec4{  
         background-color: #CCDBDC;
-    }
-    .sec5{
-        background-color: rgba(0, 126, 167, 0.6);
-    }
-    .sec6{
-        background-color: #003249;
-        min-height: 40vh;
     }
     
     .head--cs{
@@ -754,7 +752,7 @@
         width: 32em;
     }
     .sec4{  
-        background-color: #ffffff;
+        background-color: #000000;
         height: 100%;
     }
     .sec4 .container{
@@ -773,7 +771,7 @@
     .sec4 .header h2, .sec4 .header h3{
         padding: 1rem;
         font-size: 2rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255,255,255);
     }
     .sec4 .btn1{
        width: 20em;
@@ -789,10 +787,18 @@
         color: white;
      }
     .sec4 .btns--div{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
         margin-bottom: 2em;
     }
     .menu i{
         visibility: visible;
+    }
+    .sec5{
+        height: 150vh;
+        background-color: black;
     }
 }
 
@@ -829,11 +835,6 @@
         flex-direction: column;
         justify-content: center;
         align-content: center;
-    }
-  
-    .sec5{
-        height: 40vh;
-        background-color: #000000;
     }
     
     .head--cs{
@@ -1041,7 +1042,7 @@
         width: 32em;
     }
     .sec4{  
-        background-color: #ffffff;
+        background-color: #000000;
         height: 100%;
     }
     .sec4 .container{
@@ -1049,7 +1050,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        align-content: center;
     }
     .sec4 .header{
         display: flex;
@@ -1061,7 +1061,7 @@
     .sec4 .header h2, .sec4 .header h3{
         padding: 1rem;
         font-size: 2rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     .sec4 .btn1{
        width: 20em;
@@ -1085,6 +1085,10 @@
     }
     .menu i{
         visibility: visible;
+    }
+    .sec5{
+        height: 150vh;
+        background-color: black;
     }
   }
   @media   (max-width: 480px) {
@@ -1112,16 +1116,6 @@
         flex-direction: column;
         justify-content: center;
         align-content: center;
-    }
-    .sec4{  
-        background-color: #CCDBDC;
-    }
-    .sec5{
-        background-color: rgba(0, 126, 167, 0.6);
-    }
-    .sec6{
-        background-color: #003249;
-        min-height: 40vh;
     }
     
     .head--cs{
@@ -1333,7 +1327,7 @@
         width: 32em;
     }
     .sec4{  
-        background-color: #ffffff;
+        background-color: #000000;
         height: 100%;
     }
     .sec4 .container{
@@ -1352,7 +1346,7 @@
     .sec4 .header h2, .sec4 .header h3{
         padding: 1rem;
         font-size: 2rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     .sec4 .btn1{
        width: 20em;
@@ -1373,7 +1367,10 @@
     .menu i{
         visibility: visible;
     }
-    
+    .sec5{
+        height: 150vh;
+        background-color: black;
+    }
   }
     
 
