@@ -74,7 +74,7 @@
     
     
     .logo img{
-        width: 70%;
+        width: 100%;
         padding-top: 3%;
     }
     
@@ -214,7 +214,7 @@
         width: 28em;
     }
     .sec4{  
-        background-color: #ffffff;
+        background-color: #000000;
         height: 100%;
     }
     .sec4 .container{
@@ -233,7 +233,7 @@
     .sec4 .header h2, .sec4 .header h3{
         padding: 1rem;
         font-size: 2rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
     .sec4 .btn1{
        width: 20em;
@@ -247,6 +247,8 @@
     .sec4 .btn1:hover{
         background-color: black;
         color: white;
+        border: solid 2px rgb(255, 71, 126);
+        ;
      }
     .sec4 .btns--div{
         margin-bottom: 2em;
